@@ -8,12 +8,10 @@ public class ContohMethodStaticdanNonStatic {
         System.out.println("Luas persegi: " + luasPersegi);
 
         ContohMethodStaticdanNonStatic object = new ContohMethodStaticdanNonStatic();
-        object.tampilkanPesananSelamatDatang ("Sabrina Novitalia Sihombing");
+        object.tampikanPesanSelamatDatang("Sabrina Novitalia Sihombing");
     }
 
-    public void tampilkanPesananSelamatDatang (String nama){
-        System.out.println("Selamat Datang, " + nama + "!");
-
+    public void tampikanPesanSelamatDatang(String nama) {
+        System.out.println("Selamat datang, " + nama + " !");
     }
-
 }
